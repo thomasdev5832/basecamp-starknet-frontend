@@ -4,6 +4,8 @@ This frontend project is part of homework #3 of Starknet Basecamp Brazil. The go
 
 **[basecamp-starknet.vercel.app](https://basecamp-starknet.vercel.app/)**
 
+![Starknet Basecamp Frontend](basecamp-starknet.PNG)
+
 ### Prerequisites
 
 Before you begin, make sure you meet the following requirements:
