@@ -15,6 +15,7 @@ import contractAbi from "../abis/abi_erc20.json";
 import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import starknetLogo from '../app/starknet-token-strk-logo.png';
+import githubLogo from '../app/icons8-github-30.png';
 
 const WalletBar = dynamic(() => import('../components/WalletBar'), { ssr: false })
 const Page: React.FC = () => {
@@ -325,6 +326,16 @@ const Page: React.FC = () => {
       </form>
       {/* Step 5 --> Transfer tokens to a wallet -- End */}
 
+      <div className='flex flex-row mt-10 items-center'>
+        <a href="https://github.com/thomasdev5832" title="GitHub" className='hover:animate-spin'>
+          <Image
+            src={githubLogo}
+            alt="Github Logo"
+            width={30}
+            height={30}
+          />
+        </a>
+      </div>
     </div>
   );
 };
