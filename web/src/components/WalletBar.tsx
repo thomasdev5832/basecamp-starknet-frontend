@@ -16,7 +16,7 @@ function WalletConnected() {
     <div>
       <span>Connected: {shortenedAddress}</span>
       <button
-        className="bg-yellow-300 border border-black hover:bg-yellow-500 text-black font-regular py-2 px-4"
+        className="bg-slate-100 border rounded-lg border-black hover:bg-slate-300 text-black font-regular py-2 px-4 m-2"
         onClick={() => disconnect()}
       >
         Disconnect
