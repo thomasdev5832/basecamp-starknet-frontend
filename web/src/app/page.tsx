@@ -24,7 +24,7 @@ const Page: React.FC = () => {
   const { data: blockNumberData, isLoading: blockNumberIsLoading, isError: blockNumberIsError } = useBlockNumber({
     blockIdentifier: 'latest' as BlockNumber
   });
-  const workshopEnds = 175000;
+  const workshopEnds = 180000;
   // Step 1 --> Read the latest block -- End
 
   // Step 2 --> Read your balance -- Start
